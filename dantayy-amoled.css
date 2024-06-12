@@ -1,3 +1,14 @@
+.top-nav__main-menus > li {
+  background: #333;
+}
+
+.top-nav__site-logo,
+.torrent-card__link,
+.torrent-card__genre,
+.panel__heading {
+  color: #aaaaaa !important;
+}
+
 .top-nav,
 .secondary-nav,
 main > article,
@@ -5,40 +16,16 @@ main > div > article {
   margin: 0 auto !important;
   max-width: 75vw !important;
 }
-@media (max-width: 992px) {
-  .top-nav,
-  .secondary-nav,
-  main > article,
-  main > div > article {
-    max-width: 70vw !important;
-  }
-}
-@media (max-width: 768px) {
-  .top-nav,
-  .secondary-nav,
-  main > article,
-  main > div > article {
-    max-width: 65vw !important;
-  }
-}
-@media (max-width: 576px) {
-  .top-nav,
-  .secondary-nav,
-  main > article,
-  main > div > article {
-    max-width: 65vw !important;
-  }
-}
 
 @supports selector(:has(.torrent-search-grouped_-results)) {
   .page__torrents:not(:has(.torrent-search--grouped__results)) {
-    margin: 0 !important;
+    margin: 0 auto !important;
   }
 }
 @supports selector(:has(.torrent-search-grouped_-results)) {
   @media only screen and (min-width: 1600px) {
     .page__torrents:not(:has(.torrent-search--grouped__results)) {
-      margin: 0;
+      margin: 0 auto !important;
     }
   }
 }
