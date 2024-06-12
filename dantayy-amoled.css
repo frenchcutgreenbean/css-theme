@@ -3,7 +3,7 @@ ul.top-nav__main-menus > li {
 }
 
 .torrent-search--list__row {
-  grid-template-columns: 2vw 5vw 42vw 5vw 5vw 3vw 1fr 1fr 1fr 3fr !important;
+  grid-template-columns: 2vw 5vw 42vw 5vw 4.3vw 3vw 1fr 1fr 1fr 3fr !important;
 }
 
 .torrent-search--list__rating {
