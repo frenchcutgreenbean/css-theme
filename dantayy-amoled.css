@@ -1,0 +1,98 @@
+.top-nav {
+  max-width: 75vw !important;
+}
+@media (max-width: 992px) {
+  .top-nav {
+    max-width: 70vw !important;
+  }
+}
+@media (max-width: 768px) {
+  .top-nav {
+    max-width: 65vw !important;
+  }
+}
+@media (max-width: 576px) {
+  .top-nav {
+    max-width: 65vw !important;
+  }
+}
+
+.chatbox-message,
+.chatbox-message:before,
+.chatbox-message__header > div,
+.chatbox-message__content > div,
+div[style*="white-space: nowrap;"] {
+  white-space: normal !important;
+  max-width: 60vw !important;
+}
+@media (max-width: 992px) {
+  .chatbox-message,
+  .chatbox-message:before,
+  .chatbox-message__header > div,
+  .chatbox-message__content > div,
+  div[style*="white-space: nowrap;"] {
+    max-width: 70vw !important;
+  }
+}
+@media (max-width: 768px) {
+  .chatbox-message,
+  .chatbox-message:before,
+  .chatbox-message__header > div,
+  .chatbox-message__content > div,
+  div[style*="white-space: nowrap;"] {
+    max-width: 75vw !important;
+  }
+}
+@media (max-width: 576px) {
+  .chatbox-message,
+  .chatbox-message:before,
+  .chatbox-message__header > div,
+  .chatbox-message__content > div,
+  div[style*="white-space: nowrap;"] {
+    max-width: 85vw !important;
+  }
+}
+
+.chatbox-message__header > div,
+.chatbox-message__content > div {
+  color: #aaaaaa !important;
+}
+
+.chatbox-message__header > div {
+  font-size: 12px !important;
+}
+
+.chatbox__chatroom {
+  line-height: 1.1 !important;
+  background-color: #1c1c1c;
+}
+
+.panel__tabs {
+  background-color: #1c1c1c;
+}
+
+.chatbox-message,
+.chatbox-message:before {
+  background-color: transparent;
+  border: none;
+  font-size: 14px !important;
+}
+
+a[href="/users/System"] {
+  display: none;
+}
+
+i[title="System Notification"] {
+  display: none;
+}
+
+.chatbox-message__aside {
+  bottom: auto;
+  top: 4px;
+}
+
+.chatbox-message__time {
+  padding: 0;
+  font-size: 10px !important;
+  color: rgba(170, 170, 170, 0.5019607843) !important;
+}/*# sourceMappingURL=dantayy-amoled.css.map */
