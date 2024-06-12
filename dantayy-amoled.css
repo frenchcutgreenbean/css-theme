@@ -1,18 +1,31 @@
-.top-nav {
+.top-nav,
+.secondary-nav,
+main > article,
+main > div > article {
+  margin: 0 auto !important;
   max-width: 75vw !important;
 }
 @media (max-width: 992px) {
-  .top-nav {
+  .top-nav,
+  .secondary-nav,
+  main > article,
+  main > div > article {
     max-width: 70vw !important;
   }
 }
 @media (max-width: 768px) {
-  .top-nav {
+  .top-nav,
+  .secondary-nav,
+  main > article,
+  main > div > article {
     max-width: 65vw !important;
   }
 }
 @media (max-width: 576px) {
-  .top-nav {
+  .top-nav,
+  .secondary-nav,
+  main > article,
+  main > div > article {
     max-width: 65vw !important;
   }
 }

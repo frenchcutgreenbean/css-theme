@@ -35,7 +35,11 @@ $large-text: 16px !important;
     }
 }
 
-.top-nav {
+.top-nav,
+.secondary-nav,
+main>article,
+main>div>article {
+    margin: 0 auto !important;
     max-width: 75vw !important;
 
     @include respond-to(large) {
