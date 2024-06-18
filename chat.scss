@@ -58,6 +58,14 @@ div[style*="white-space: nowrap;"] {
     }
 }
 
+.chatbox__chatroom {
+    max-height: 60vh;
+
+    @media (max-height: 500px) {
+        max-height: 50vh;
+    }
+}
+
 .chatbox-message__header>div,
 .chatbox-message__content>div {
     color: #aaaaaa !important;
