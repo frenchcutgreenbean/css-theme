@@ -35,7 +35,6 @@ $large-text: 16px !important;
     }
 }
 
-
 // Set max-width elements
 .chatbox-message,
 .chatbox-message:before,
@@ -64,6 +63,11 @@ div[style*="white-space: nowrap;"] {
     @media (max-height: 500px) {
         max-height: 50vh;
     }
+}
+
+.chatbox--fullscreen .chatbox__chatroom {
+    // view height - chat header - panels
+    max-height: calc(100vh - 36px - 37px);
 }
 
 .chatbox-message__header>div,

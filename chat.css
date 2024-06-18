@@ -43,6 +43,10 @@ div[style*="white-space: nowrap;"] {
   }
 }
 
+.chatbox--fullscreen .chatbox__chatroom {
+  max-height: calc(100vh - 36px - 37px);
+}
+
 .chatbox-message__header > div,
 .chatbox-message__content > div {
   color: #aaaaaa !important;
