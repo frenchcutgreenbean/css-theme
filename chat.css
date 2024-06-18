@@ -43,6 +43,15 @@ div[style*="white-space: nowrap;"] {
   }
 }
 
+.chatbox-message:has(aside > figure > i) {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.chatbox-message__address.user-tag:has(a[title=Bot]) {
+  padding: 0 !important;
+}
+
 .chatbox--fullscreen .chatbox__chatroom {
   max-height: calc(100vh - 36px - 37px);
 }
