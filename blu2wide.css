@@ -1,7 +1,7 @@
-.chatroom__messages{
+.chatroom__messages {
   padding: 0 !important;
 }
-.chatroom__messages--wrapper{
+.chatroom__messages--wrapper {
   padding: 10px;
 }
 .chatbox-message,
