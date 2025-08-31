@@ -65,9 +65,35 @@ div[style*="white-space: nowrap;"] {
     }
 }
 
-// hide system messages completely
-li:has(.chatbox-message):has(aside > figure > i) {
-    display: none !important;
+// System message alignment thanks @Valie!
+.chatbox-message:has(aside > figure > i) {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.form__textarea {
+    height: 40px;
+
+    &:focus,
+    &:focus:placeholder-shown {
+        height: 40px;
+    }
+}
+
+
+.chatroom__messages--wrapper {
+    max-width: 100% !important;
+    padding: 10px !important;
+}
+
+.chatroom__messages {
+    padding: 0 !important;
+    width: 65vw;
+    margin: 0 auto !important;
+}
+
+.chatbox-message__address.user-tag:has(a[title="Bot"]) {
+    padding: 0 !important;
 }
 
 .chatbox--fullscreen .chatbox__chatroom {
@@ -100,6 +126,16 @@ li:has(.chatbox-message):has(aside > figure > i) {
     font-size: $medium-text;
 }
 
+// Hide xenomorph
+a[href="/users/System"] {
+    display: none;
+}
+
+// Hide bot icon
+i[title="System Notification"] {
+    display: none;
+}
+
 // Re-position avatar
 .chatbox-message__aside {
     bottom: auto;
@@ -110,4 +146,62 @@ li:has(.chatbox-message):has(aside > figure > i) {
     padding: 0;
     font-size: $tiny-text;
     color: #aaaaaa80 !important;
+}
+
+.page__requests,
+.page__torrents {
+    table {
+        table-layout: fixed !important;
+        width: 100% !important;
+    }
+
+    th,
+    tr,
+    td {
+        text-align: center !important;
+    }
+
+    table th:first-child {
+        width: 25% !important;
+        text-align: left !important;
+    }
+
+    .torrent-search--list__name-header,
+    .torrent-search--list__name,
+    table td:first-child {
+        text-align: left !important;
+    }
+}
+
+.torrent-search__results,
+.torrent-search__filters,
+.panelV2,
+.user-torrents,
+.user-torrents__filters,
+.page__torrents {
+    margin: 0 !important;
+}
+
+.user-torrents,
+.user-uploads,
+.user-resurrections,
+.user-peers {
+    width: 100% !important;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 70vw !important;
+
+    @include respond-to(large) {
+        max-width: 80vw !important;
+    }
+
+    @include respond-to(medium) {
+        max-width: 85vw !important; // Adjust the width for medium screens
+    }
+
+    @include respond-to(small) {
+        max-width: 90vw !important; // Adjust the width for small screens
+    }
 }

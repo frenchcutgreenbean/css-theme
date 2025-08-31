@@ -48,6 +48,27 @@ div[style*="white-space: nowrap;"] {
   padding: 0 !important;
 }
 
+.form__textarea {
+  height: 40px;
+}
+.form__textarea:focus:-moz-placeholder {
+  height: 40px;
+}
+.form__textarea:focus, .form__textarea:focus:placeholder-shown {
+  height: 40px;
+}
+
+.chatroom__messages--wrapper {
+  max-width: 100% !important;
+  padding: 10px !important;
+}
+
+.chatroom__messages {
+  padding: 0 !important;
+  width: 65vw;
+  margin: 0 auto !important;
+}
+
 .chatbox-message__address.user-tag:has(a[title=Bot]) {
   padding: 0 !important;
 }
@@ -100,6 +121,33 @@ i[title="System Notification"] {
   color: rgba(170, 170, 170, 0.5019607843) !important;
 }
 
+.page__requests table,
+.page__torrents table {
+  table-layout: fixed !important;
+  width: 100% !important;
+}
+.page__requests th,
+.page__requests tr,
+.page__requests td,
+.page__torrents th,
+.page__torrents tr,
+.page__torrents td {
+  text-align: center !important;
+}
+.page__requests table th:first-child,
+.page__torrents table th:first-child {
+  width: 25% !important;
+  text-align: left !important;
+}
+.page__requests .torrent-search--list__name-header,
+.page__requests .torrent-search--list__name,
+.page__requests table td:first-child,
+.page__torrents .torrent-search--list__name-header,
+.page__torrents .torrent-search--list__name,
+.page__torrents table td:first-child {
+  text-align: left !important;
+}
+
 .torrent-search__results,
 .torrent-search__filters,
 .panelV2,
@@ -134,4 +182,4 @@ main {
   main {
     max-width: 90vw !important;
   }
-}/*# sourceMappingURL=blu2wide.css.map */
+}/*# sourceMappingURL=unit3d2wide.css.map */
