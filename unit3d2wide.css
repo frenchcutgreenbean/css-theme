@@ -1,3 +1,9 @@
+.chatroom__messages {
+  padding: 0 !important;
+}
+.chatroom__messages--wrapper {
+  padding: 10px;
+}
 .chatbox-message,
 .chatbox-message:before,
 .chatbox-message__header > div,
@@ -183,3 +189,4 @@ main {
     max-width: 90vw !important;
   }
 }/*# sourceMappingURL=unit3d2wide.css.map */
+    
