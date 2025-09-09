@@ -35,6 +35,10 @@ $large-text: 16px !important;
     }
 }
 
+.torrent-activity-indicator--seeding {
+    text-shadow: none !important;
+}
+
 // Set max-width elements
 .chatbox-message,
 .chatbox-message:before,
@@ -161,10 +165,6 @@ i[title="System Notification"] {
         text-align: center !important;
     }
 
-    table th:first-child {
-        width: 25% !important;
-        text-align: left !important;
-    }
 
     .torrent-search--list__name-header,
     .torrent-search--list__name,

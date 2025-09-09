@@ -1,9 +1,7 @@
-.chatroom__messages {
-  padding: 0 !important;
+.torrent-activity-indicator--seeding {
+  text-shadow: none !important;
 }
-.chatroom__messages--wrapper {
-  padding: 10px;
-}
+
 .chatbox-message,
 .chatbox-message:before,
 .chatbox-message__header > div,
@@ -140,11 +138,6 @@ i[title="System Notification"] {
 .page__torrents td {
   text-align: center !important;
 }
-.page__requests table th:first-child,
-.page__torrents table th:first-child {
-  width: 25% !important;
-  text-align: left !important;
-}
 .page__requests .torrent-search--list__name-header,
 .page__requests .torrent-search--list__name,
 .page__requests table td:first-child,
@@ -189,4 +182,3 @@ main {
     max-width: 90vw !important;
   }
 }/*# sourceMappingURL=unit3d2wide.css.map */
-    
