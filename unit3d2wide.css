@@ -1,4 +1,6 @@
-.torrent-activity-indicator--seeding {
+.torrent-activity-indicator--seeding,
+.torrent-activity-indicator--completed,
+.torrent-activity-indicator--leeching {
   text-shadow: none !important;
 }
 
