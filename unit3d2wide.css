@@ -88,9 +88,8 @@ div[style*="white-space: nowrap;"] {
   color: #aaaaaa !important;
 }
 
-.chatbox-message__content {
-  display: flex;
-  align-items: flex-end;
+.chatbox-message__content img {
+  vertical-align: bottom;
 }
 
 .chatbox-message__header > div {
