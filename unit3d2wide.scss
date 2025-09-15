@@ -112,6 +112,11 @@ div[style*="white-space: nowrap;"] {
     color: #aaaaaa !important;
 }
 
+.chatbox-message__content{
+    display: flex;
+    align-items: flex-end;
+}
+
 .chatbox-message__header>div {
     font-size: $small-text;
 }
